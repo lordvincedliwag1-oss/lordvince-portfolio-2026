@@ -1,0 +1,6 @@
+{
+  "name": "Lordvince Liwag Portfolio",
+  "description": "Portfolio for Lordvince Liwag highlighting Virtual Assistant work, AI automation projects, and software projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

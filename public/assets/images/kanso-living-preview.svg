@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap');
+      .serif { font-family: 'Playfair Display', Georgia, serif; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+    <filter id="pCardShadow" x="-3%" y="-2%" width="106%" height="106%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.04" />
+    </filter>
+  </defs>
+
+  <!-- Clean ivory background -->
+  <rect width="1200" height="620" fill="#faf8f5" />
+
+  <!-- TOP HEADER / STORE NAVIGATION -->
+  <g id="kanso-nav" class="sans">
+    <!-- Brand Logo -->
+    <g transform="translate(60, 24)">
+      <rect width="32" height="32" rx="7" fill="#242220" />
+      <circle cx="16" cy="16" r="8" fill="none" stroke="#e8dfd8" stroke-width="1.5" />
+      <path d="M12 18 C14 12, 18 12, 20 14 C18 20, 14 20, 12 18 Z" fill="#e8dfd8" />
+      <text x="42" y="19" font-size="17" font-weight="700" fill="#1c1917" class="serif">Kanso Living</text>
+      <text x="42" y="29" font-size="8.5" font-weight="600" fill="#78716c" letter-spacing="1.5">STUDIO LIVING</text>
+    </g>
+
+    <!-- Center Menu Links -->
+    <g transform="translate(290, 42)">
+      <text x="0" y="0" font-size="13" font-weight="600" fill="#1c1917">Home</text>
+      <line x1="0" y1="5" x2="35" y2="5" stroke="#1c1917" stroke-width="1.8" />
+      
+      <text x="55" y="0" font-size="13" font-weight="500" fill="#57534e">All Products</text>
+      <text x="150" y="0" font-size="13" font-weight="500" fill="#57534e">Kitchen &amp; Pantry</text>
+      <text x="275" y="0" font-size="13" font-weight="500" fill="#57534e">Closet &amp; Wardrobe</text>
+      <text x="415" y="0" font-size="13" font-weight="500" fill="#57534e">Workspace</text>
+      <text x="510" y="0" font-size="13" font-weight="500" fill="#57534e">Our Story</text>
+    </g>
+
+    <!-- Right User Icons -->
+    <g transform="translate(940, 42)">
+      <!-- Search icon -->
+      <circle cx="0" cy="-4" r="5.5" fill="none" stroke="#292524" stroke-width="1.5" />
+      <line x1="4" y1="0" x2="9" y2="5" stroke="#292524" stroke-width="1.5" stroke-linecap="round" />
+
+      <!-- Sign in -->
+      <text x="35" y="0" font-size="11.5" font-weight="600" fill="#292524" letter-spacing="0.5">👤 SIGN IN</text>
+
+      <!-- Bag -->
+      <rect x="120" y="-12" width="16" height="15" rx="3" fill="none" stroke="#292524" stroke-width="1.5" />
+      <path d="M124 -12 C124 -15, 132 -15, 132 -12" fill="none" stroke="#292524" stroke-width="1.5" />
+      <circle cx="138" cy="-12" r="5" fill="#1c1917" />
+      <text x="136" y="-9" font-size="8" fill="#ffffff" font-weight="700">1</text>
+      <text x="148" y="0" font-size="11.5" font-weight="600" fill="#292524" letter-spacing="0.5">BAG (1)</text>
+    </g>
+  </g>
+
+  <!-- SECTION HEADER: Top Rated Organizers -->
+  <g transform="translate(60, 115)">
+    <text x="0" y="0" font-size="32" font-weight="700" fill="#1c1917" class="serif">Top Rated Organizers</text>
+    <text x="1080" y="-4" font-size="11" font-weight="700" fill="#1c1917" class="sans" letter-spacing="1" text-anchor="end">VIEW ALL PRODUCTS →</text>
+  </g>
+
+  <!-- PRODUCT CARDS (4 COLUMNS) -->
+  
+  <!-- CARD 1: Borosilicate Glass Canister -->
+  <g transform="translate(60, 140)" class="sans">
+    <rect width="250" height="440" rx="10" fill="#ffffff" stroke="#f0ebe3" stroke-width="1" filter="url(#pCardShadow)" />
+    
+    <!-- Image Box -->
+    <g>
+      <clipPath id="c1"><rect x="0" y="0" width="250" height="260" rx="10" /></clipPath>
+      <g clip-path="url(#c1)">
+        <rect width="250" height="260" fill="#eae4dc" />
+        <!-- Illustrated canister scene -->
+        <rect x="25" y="45" width="200" height="195" rx="8" fill="#d97706" opacity="0.15" />
+        <ellipse cx="125" cy="190" rx="70" ry="16" fill="#000000" opacity="0.08" />
+        <!-- Food / Rice texture -->
+        <circle cx="105" cy="135" r="45" fill="#fcd34d" opacity="0.8" />
+        <circle cx="140" cy="145" r="40" fill="#fb923c" opacity="0.75" />
+        <circle cx="120" cy="165" r="35" fill="#34d399" opacity="0.5" />
+        <!-- Glass Jar Outline -->
+        <rect x="55" y="70" width="140" height="135" rx="12" fill="rgba(255,255,255,0.4)" stroke="#ffffff" stroke-width="2.5" />
+        <rect x="50" y="60" width="150" height="16" rx="4" fill="#a16207" />
+        <ellipse cx="125" cy="62" rx="20" ry="5" fill="#ca8a04" />
+      </g>
+    </g>
+
+    <!-- Badges -->
+    <rect x="14" y="14" width="68" height="18" rx="4" fill="#1c1917" />
+    <text x="21" y="27" font-size="9" font-weight="700" fill="#ffffff" letter-spacing="0.5">STAFF PICK</text>
+    
+    <rect x="14" y="36" width="60" height="18" rx="4" fill="#991b1b" />
+    <text x="20" y="49" font-size="9" font-weight="700" fill="#ffffff">SAVE 23%</text>
+
+    <!-- Details -->
+    <text x="16" y="286" font-size="9.5" font-weight="700" fill="#a8a29e" letter-spacing="0.8">KITCHEN &amp; PANTRY</text>
+    <text x="16" y="308" font-size="12.5" font-weight="600" fill="#1c1917">Airtight Borosilicate Glass</text>
+    <text x="16" y="325" font-size="12.5" font-weight="600" fill="#1c1917">Canister Set (5-Piece)</text>
+
+    <!-- Price and Add Button -->
+    <text x="16" y="405" font-size="15" font-weight="700" fill="#1c1917">$48.00</text>
+    <text x="68" y="405" font-size="12" fill="#a8a29e" text-decoration="line-through">$62.00</text>
+
+    <rect x="178" y="388" width="56" height="28" rx="6" fill="#1c1917" />
+    <text x="190" y="406" font-size="12" font-weight="600" fill="#ffffff">+ Add</text>
+  </g>
+
+  <!-- CARD 2: Expandable Bamboo Drawer Divider -->
+  <g transform="translate(335, 140)" class="sans">
+    <rect width="250" height="440" rx="10" fill="#ffffff" stroke="#f0ebe3" stroke-width="1" filter="url(#pCardShadow)" />
+    
+    <g>
+      <clipPath id="c2"><rect x="0" y="0" width="250" height="260" rx="10" /></clipPath>
+      <g clip-path="url(#c2)">
+        <rect width="250" height="260" fill="#e7edf0" />
+        <!-- Dutch Oven Scene -->
+        <ellipse cx="125" cy="200" rx="65" ry="14" fill="#000000" opacity="0.08" />
+        <!-- Orange Pot -->
+        <ellipse cx="125" cy="165" rx="55" ry="25" fill="#ea580c" />
+        <rect x="70" y="140" width="110" height="45" rx="10" fill="#f97316" />
+        <!-- Handles -->
+        <rect x="52" y="146" width="18" height="10" rx="4" fill="#ea580c" />
+        <rect x="180" y="146" width="18" height="10" rx="4" fill="#ea580c" />
+        <!-- Lid -->
+        <ellipse cx="125" cy="140" rx="54" ry="16" fill="#fb923c" stroke="#ea580c" stroke-width="1" />
+        <ellipse cx="125" cy="132" rx="10" ry="4" fill="#f43f5e" />
+      </g>
+    </g>
+
+    <rect x="14" y="14" width="68" height="18" rx="4" fill="#1c1917" />
+    <text x="21" y="27" font-size="9" font-weight="700" fill="#ffffff" letter-spacing="0.5">STAFF PICK</text>
+    
+    <rect x="14" y="36" width="60" height="18" rx="4" fill="#991b1b" />
+    <text x="20" y="49" font-size="9" font-weight="700" fill="#ffffff">SAVE 18%</text>
+
+    <text x="16" y="286" font-size="9.5" font-weight="700" fill="#a8a29e" letter-spacing="0.8">KITCHEN &amp; PANTRY</text>
+    <text x="16" y="308" font-size="12.5" font-weight="600" fill="#1c1917">Expandable Bamboo Cutlery &amp;</text>
+    <text x="16" y="325" font-size="12.5" font-weight="600" fill="#1c1917">Utensil Drawer Divider</text>
+
+    <text x="16" y="405" font-size="15" font-weight="700" fill="#1c1917">$34.50</text>
+    <text x="68" y="405" font-size="12" fill="#a8a29e" text-decoration="line-through">$42.00</text>
+
+    <rect x="178" y="388" width="56" height="28" rx="6" fill="#1c1917" />
+    <text x="190" y="406" font-size="12" font-weight="600" fill="#ffffff">+ Add</text>
+  </g>
+
+  <!-- CARD 3: Architectural Linen Wardrobe Bins -->
+  <g transform="translate(610, 140)" class="sans">
+    <rect width="250" height="440" rx="10" fill="#ffffff" stroke="#f0ebe3" stroke-width="1" filter="url(#pCardShadow)" />
+    
+    <g>
+      <clipPath id="c3"><rect x="0" y="0" width="250" height="260" rx="10" /></clipPath>
+      <g clip-path="url(#c3)">
+        <rect width="250" height="260" fill="#e8e4df" />
+        <!-- Linen Bag Scene -->
+        <ellipse cx="125" cy="210" rx="65" ry="14" fill="#000000" opacity="0.08" />
+        <rect x="75" y="100" width="100" height="110" rx="6" fill="#b4916c" />
+        <path d="M75 100 L125 110 L175 100 L175 210 L75 210 Z" fill="#9d774f" opacity="0.4" />
+        <!-- Straps -->
+        <path d="M100 100 C100 50, 150 50, 150 100" fill="none" stroke="#8d6842" stroke-width="9" stroke-linecap="round" />
+        <rect x="105" y="145" width="40" height="20" rx="3" fill="#d97706" opacity="0.7" stroke="#78350f" stroke-width="1" />
+      </g>
+    </g>
+
+    <rect x="14" y="14" width="68" height="18" rx="4" fill="#1c1917" />
+    <text x="21" y="27" font-size="9" font-weight="700" fill="#ffffff" letter-spacing="0.5">STAFF PICK</text>
+    
+    <rect x="14" y="36" width="60" height="18" rx="4" fill="#991b1b" />
+    <text x="20" y="49" font-size="9" font-weight="700" fill="#ffffff">SAVE 20%</text>
+
+    <text x="16" y="286" font-size="9.5" font-weight="700" fill="#a8a29e" letter-spacing="0.8">CLOSET &amp; WARDROBE</text>
+    <text x="16" y="308" font-size="12" font-weight="600" fill="#1c1917">Architectural Linen Wardrobe</text>
+    <text x="16" y="325" font-size="12" font-weight="600" fill="#1c1917">Storage Bins with Brass Label Holders</text>
+
+    <text x="16" y="405" font-size="15" font-weight="700" fill="#1c1917">$52.00</text>
+    <text x="68" y="405" font-size="12" fill="#a8a29e" text-decoration="line-through">$65.00</text>
+
+    <rect x="178" y="388" width="56" height="28" rx="6" fill="#1c1917" />
+    <text x="190" y="406" font-size="12" font-weight="600" fill="#ffffff">+ Add</text>
+  </g>
+
+  <!-- CARD 4: Solid Birch Desktop Monitor Riser -->
+  <g transform="translate(885, 140)" class="sans">
+    <rect width="250" height="440" rx="10" fill="#ffffff" stroke="#f0ebe3" stroke-width="1" filter="url(#pCardShadow)" />
+    
+    <g>
+      <clipPath id="c4"><rect x="0" y="0" width="250" height="260" rx="10" /></clipPath>
+      <g clip-path="url(#c4)">
+        <rect width="250" height="260" fill="#f1f2f4" />
+        <!-- Mouse Scene -->
+        <ellipse cx="125" cy="185" rx="60" ry="14" fill="#000000" opacity="0.1" />
+        <!-- Ergonomic mouse shape -->
+        <path d="M75 165 C70 120, 110 80, 145 95 C175 110, 180 150, 175 170 C165 185, 90 185, 75 165 Z" fill="#64748b" />
+        <path d="M85 160 C80 125, 110 90, 140 102 C165 115, 170 145, 165 165 Z" fill="#94a3b8" />
+        <line x1="125" y1="100" x2="125" y2="135" stroke="#334155" stroke-width="1.5" />
+        <rect x="122" y="110" width="6" height="12" rx="3" fill="#1e293b" />
+      </g>
+    </g>
+
+    <rect x="14" y="14" width="68" height="18" rx="4" fill="#1c1917" />
+    <text x="21" y="27" font-size="9" font-weight="700" fill="#ffffff" letter-spacing="0.5">STAFF PICK</text>
+    
+    <rect x="14" y="36" width="60" height="18" rx="4" fill="#991b1b" />
+    <text x="20" y="49" font-size="9" font-weight="700" fill="#ffffff">SAVE 20%</text>
+
+    <text x="16" y="286" font-size="9.5" font-weight="700" fill="#a8a29e" letter-spacing="0.8">DESK &amp; WORKSPACE</text>
+    <text x="16" y="308" font-size="12" font-weight="600" fill="#1c1917">Solid Birch Ergonomic Desktop</text>
+    <text x="16" y="325" font-size="12" font-weight="600" fill="#1c1917">Monitor Riser with Storage Nook</text>
+
+    <text x="16" y="405" font-size="15" font-weight="700" fill="#1c1917">$68.00</text>
+    <text x="68" y="405" font-size="12" fill="#a8a29e" text-decoration="line-through">$85.00</text>
+
+    <rect x="178" y="388" width="56" height="28" rx="6" fill="#1c1917" />
+    <text x="190" y="406" font-size="12" font-weight="600" fill="#ffffff">+ Add</text>
+  </g>
+</svg>
